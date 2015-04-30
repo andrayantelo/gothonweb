@@ -12,9 +12,9 @@ setup(
     version= '0.1',
     install_requires= ['nose'],
     packages= ['gothonweb'],
-    scripts= ['sample.py'],
+    scripts= ['bin/sample.py'],
     name= 'gothonweb'
 )
 
-setup(**config)
+
     
