@@ -10,8 +10,8 @@ render = web.template.render('templates/')
 
 class Index(object):
     def GET(self):
-        greetings = "FOO"
-        return render.foo(greeting = greetings)
+        greeting = "This is fun."
+        return render.index(greeting = greeting)
         
 if __name__ == "__main__":
     app.run()
